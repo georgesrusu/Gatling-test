@@ -1,7 +1,7 @@
 plugins {
   id 'io.gatling.frontline.gradle' version '1.4.3'
 }
-
+apply plugin:'base'
 repositories {
   mavenCentral()
 }
